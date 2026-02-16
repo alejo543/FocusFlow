@@ -2,6 +2,7 @@ import { FiZap, FiArrowRight } from "react-icons/fi";
 import { PrimaryButton, OutlineButton } from './Buttons';
 import { motion } from 'framer-motion';
 import  HeroDashboard  from "../assets/img/hero-dashboard.png"
+import { LuPlay } from "react-icons/lu";
 
 export default function Hero() {
     const specialFeatures = [
@@ -46,14 +47,14 @@ export default function Hero() {
                         transition={{ type: "spring", stiffness: 250, damping: 70, mass: 1, delay: 0.3 }}>
                 <a href="/" className="w-full sm:w-auto">
                     <PrimaryButton className="max-sm:w-full py-3 px-7">
-                        Start your project
+                        Get Started Free
                         <FiArrowRight className="size-4" />
                     </PrimaryButton>
                 </a>
 
                 <OutlineButton className="max-sm:w-full max-sm:justify-center py-3 px-5">
-                    <FiZap className="size-4" />
-                    View our work
+                    <LuPlay className="size-4" />
+                    Watch Demo
                 </OutlineButton>
             </motion.div>
             <motion.div initial={{ y: 100, opacity: 0 }} whileInView={{ y: 0, opacity: 1 }} viewport={{ once: true }}

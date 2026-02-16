@@ -8,7 +8,10 @@ export default function SocialProof() {
     const refs = useRef<(HTMLDivElement | null)[]>([]);
     return (
         <section id="social-proof" className="py-20 2xl:py-32">
-            <div className="max-w-6xl mx-auto px-4">
+            <div className="max-w-6xl mx-auto">
+                <div className='px-4'>
+                    
+                
                 <Title
                     title="Social Proof"
                     heading="Trusted by Builders Who Value Deep Work"
@@ -19,29 +22,30 @@ export default function SocialProof() {
                             whileInView={{ y: 0, opacity: 1 }}
                             viewport={{ once: true }}
                             transition={{ type: "spring", stiffness: 250, damping: 70, mass: 1, delay: 0.1 }}
-                            className="p-5 bg-white/3 border border-white/6 grid grid-cols-4 gap-2 rounded-2xl">
+                            className="p-5 bg-white/3 border border-white/6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 md:gap-2 rounded-2xl">
                     <div className='text-center'>
-                        <h3 className="text-4xl font-bold">2,400+</h3>
+                        <h3 className="text-3xl md:text-4xl font-bold">2,400+</h3>
                         <p className="text-indigo-400">Focus Sessions</p>
                     </div>
                     <div className='text-center'>
-                        <h3 className="text-4xl font-bold">38%</h3>
+                        <h3 className="text-3xl md:text-4xl font-bold">38%</h3>
                         <p className="text-indigo-400">Avg. Growth</p>
                     </div>
                     <div className='text-center'>
-                        <h3 className="text-4xl font-bold">91%</h3>
+                        <h3 className="text-3xl md:text-4xl font-bold">91%</h3>
                         <p className="text-indigo-400">Lower Burnout</p>
                     </div>
                     <div className='text-center'>
-                        <h3 className="text-4xl font-bold">120+</h3>
+                        <h3 className="text-3xl md:text-4xl font-bold">120+</h3>
                         <p className="text-indigo-400">Beta Users</p>
                     </div>
                 </motion.div>
-
+                
                 <motion.div initial={{ y: 60, opacity: 0 }} whileInView={{ y: 0, opacity: 1 }} viewport={{ once: true }}
                     transition={{ type: "spring", stiffness: 250, damping: 70, mass: 1, delay: 0.1 }} className="py-10">
                     <p className="text-center">INTEGRATED WITH YOUR WORKFLOW</p>
                 </motion.div>
+                </div>
                 <div className="overflow-hidden w-full relative max-w-6xl mx-auto" onMouseEnter={() => setStopScroll(true)} onMouseLeave={() => setStopScroll(false)}>
                     <div className="absolute left-0 top-0 h-full w-20 z-10 pointer-events-none bg-gradient-to-r from-gray-950 to-transparent" />
                         <div className="marquee-inner flex w-fit" style={{ animationPlayState: stopScroll ? "paused" : "running", animationDuration: socialProofData.length * 5500 + "ms" }}>

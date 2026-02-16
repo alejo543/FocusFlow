@@ -28,12 +28,12 @@ export default function Tools() {
                             <h3 className="text-lg font-semibold mb-2">{tool.name}</h3>
                                 {tool.rows.map((row, i) => (
                                     <div key={i}
-                                        className={`rounded-2xl p-6 border ${tool.id == "focusFlow" ? "border-indigo-500/40 bg-indigo-900/30 hover:border-indigo-500/50" : "bg-white/3 border-white/10 hover:border-white/20"} hover:-translate-y-1  transiton duration-300 flex items-center`}
+                                        className={`rounded-2xl p-3 md:p-6 border ${tool.id == "focusFlow" ? "border-indigo-500/40 bg-indigo-900/30 hover:border-indigo-500/50" : "bg-white/3 border-white/10 hover:border-white/20"} hover:-translate-y-1  transiton duration-300 flex items-center`}
                                     >   
                                         <div className="w-12 h-12 rounded-lg flex items-center justify-center mb-0">
                                             {row.icon}
                                         </div>
-                                        <h3 className="text-lg font-semibold mb-0">{row.content}</h3>
+                                        <h3 className="test-md md:text-lg font-semibold mb-0">{row.content}</h3>
                                     </div>
                                 ))}
                         </motion.div>

@@ -14,7 +14,7 @@ export default function Navbar() {
             transition={{ type: "spring", stiffness: 250, damping: 70, mass: 1 }}
         >
             <div className='max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-3 bg-black/50 backdrop-blur-md border border-white/4 rounded-2xl p-3'>
-                <a href='/#' className="flex items-center gap-2">
+                <a href='/#' className="flex items-center gap-2 font-bold">
                     <span className='w-10 h-10 bg-indigo-500 p-2 rounded-lg'>
                         <GiPolarStar className="w-6 h-6 text-white"/>
                     </span>
@@ -31,7 +31,7 @@ export default function Navbar() {
 
                 <div className='hidden md:flex items-center justify-end gap-3'>
                     <button className='text-sm font-medium text-gray-300 hover:text-white transition max-sm:hidden'>
-                        Sign in
+                       Login
                     </button>
                     <PrimaryButton className='max-sm:text-xs hidden sm:inline-block'>Get Started</PrimaryButton>
                 </div>
@@ -45,7 +45,7 @@ export default function Navbar() {
             </div>
             <div className={`flex flex-col items-center justify-center gap-6 text-lg p-5 font-medium fixed inset-0 bg-black/40 backdrop-blur-md z-50 transition-all duration-300 ${isOpen ? "translate-x-0" : "translate-x-full"}`}>
                 <div className="mb-auto flex justify-between w-full">
-                    <a href='/#' className="flex items-center gap-2">
+                    <a href='/#' className="flex items-center gap-2 font-bold">
                         <span className='w-10 h-10 bg-indigo-500 p-2 rounded-lg'>
                             <GiPolarStar className="w-6 h-6 text-white"/>
                         </span>
@@ -67,7 +67,7 @@ export default function Navbar() {
                         </a>
                     ))}
                     <button onClick={() => setIsOpen(false)} className='font-medium text-gray-300 hover:text-white transition'>
-                        Sign in
+                        Get Started
                     </button>
                     <PrimaryButton onClick={() => setIsOpen(false)}>Get Started</PrimaryButton>
                 </div>
