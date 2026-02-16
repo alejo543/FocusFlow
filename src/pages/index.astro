@@ -1,0 +1,26 @@
+---
+import Problem from '../components/Problem.tsx';
+import Hero from '../components/Hero.tsx';
+import Layout from '../layouts/Layout.astro';
+import Tools from '../components/Tools.tsx';
+import System from '../components/System.tsx';
+import SocialProof from '../components/SocialProof.tsx';
+import Result from '../components/Results.tsx';
+import FinalCTA from '../components/FinalCTA.tsx';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+---
+
+<Layout title="FocusFlow — Work in Deep Focus. Eliminate Distractions." description="Stop juggling apps and start working with clarity. FocusFlow helps you eliminate distractions, structure your day, and achieve consistent deep work.">
+	<Navbar  client:load/>
+	<main>
+		<Hero  client:load/>
+		<Problem client:load/>
+		<Tools client:load/>
+		<System client:load/>
+		<SocialProof client:load/>
+		<Result client:load/>
+		<FinalCTA client:load/>
+	</main>
+	<Footer client:load/>
+</Layout>

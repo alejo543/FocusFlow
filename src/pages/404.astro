@@ -1,0 +1,32 @@
+---
+import { OutlineButton, PrimaryButton } from '../components/Buttons';
+import Layout from '../layouts/Layout.astro';
+import '../styles/global.css' 
+---
+<Layout title='FocusFlow — Not found' description='Page Not found'>
+    <section class="flex items-center justify-center py-20 mt-auto mb-auto">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:px-6">
+            <div class="mx-auto max-w-screen-sm text-center">
+                <h1 class="mb-4 text-5xl tracking-tight font-extrabold lg:text-9xl text-body">
+                    <span class="bg-clip-text text-transparent bg-linear-to-r from-indigo-300 to-indigo-400">
+                        404
+                    </span>
+                </h1>
+                
+                <h2 class="mb-4 text-3xl tracking-tight font-bold text-gray-900 md:text-4xl dark:text-white">Page Not Found</h2>
+                <p class="mb-4 text-lg font-light text-gray-500 dark:text-gray-400">The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</p>
+                <div class="flex flex-col sm:flex-row justify-center items-center gap-4 mb-8">
+                    <a href="/" class="w-full sm:w-auto">
+                        <PrimaryButton className="max-sm:w-full py-3 px-7">
+                            Return Home
+                        </PrimaryButton>
+                    </a>
+
+                    <OutlineButton className="max-sm:w-full max-sm:justify-center py-3 px-5">
+                        Contact support
+                    </OutlineButton>
+                </div>
+            </div>   
+        </div>
+    </section>
+</Layout>
