@@ -24,10 +24,12 @@ export default function Footer() {
                             <div key={index} className="group">
                                 <ul className="text-sm space-y-1 flex justify-center gap-6">
                                     {section.links.map((link,index) => (
-                                        <a href={link.url} key={index} aria-label={link.label} className="transition duration-300 hover:text-white group-last:hover:-translate-y-1">
-                                            {link.name ? <>{link.name}</> : <></>}
-                                            {link.icon ? <>{link.icon}</> : <></>}
-                                        </a>
+                                        <li key={index}>
+                                            <a href={link.url} aria-label={link.label} className="transition duration-300 hover:text-white group-last:hover:-translate-y-1">
+                                                {link.name ? <>{link.name}</> : <></>}
+                                                {link.icon ? <>{link.icon}</> : <></>}
+                                            </a>
+                                        </li>
                                     ))}
                                 </ul>
                             </div>

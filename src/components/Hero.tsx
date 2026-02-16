@@ -60,7 +60,7 @@ export default function Hero() {
                 transition={{ type: "spring", stiffness: 250, damping: 70, mass: 1, delay: 0.5}} className="relative transform-3d w-full max-w-5xl" >
                 <motion.img src={HeroDashboard.src}
                     className="w-full mask-radial-[100%_100%] mask-radial-from-10% mask-radial-at-top rounded-2xl overflow-hidden border border-white/6 shadow-2xl bg-linear-to-b from-black/50 to-transparent"
-                    alt="hero section showcase"
+                    alt="hero section showcase" width={500} height={300}
                 />
             </motion.div>
         </div>

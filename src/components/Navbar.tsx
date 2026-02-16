@@ -37,7 +37,7 @@ export default function Navbar() {
                 </div>
 
                 <div className='flex md:hidden justify-end '>
-                    <button onClick={() => setIsOpen(!isOpen)} className=''>
+                    <button onClick={() => setIsOpen(!isOpen)} aria-label="Toggle Menu Mobile">
                         <LuMenu className='size-6' />
                     </button>
                 </div>
@@ -51,9 +51,10 @@ export default function Navbar() {
                         </span>
                         FOCUSFLOW
                     </a>
-                    <button
+                    <button 
                         onClick={() => setIsOpen(false)}
                         className="rounded-md bg-white p-2 text-gray-800 ring-white active:ring-2"
+                        aria-label="Close Menu Mobile"
                     >
                         <LuX />
                     </button>
