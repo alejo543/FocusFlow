@@ -56,3 +56,19 @@ The landing page structure follows a product-centric narrative:
 
 ## 📁 Project Structure
 
+src/
+├─ components/
+│ ├─ landing/
+│ │ ├─ HeroSection.tsx
+│ │ ├─ ProblemSection.tsx
+│ │ ├─ ToolsFailSection.tsx
+│ │ ├─ SystemSection.tsx
+│ │ ├─ SocialProofSection.tsx
+│ │ ├─ ResultsSection.tsx
+│ │ └─ FinalCTASection.tsx
+├─ App.tsx
+└─ index.tsx
+
+📌 Run Locally
+
+npm run dev
