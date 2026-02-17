@@ -8,7 +8,7 @@ FocusFlow is a structured system for aligning your tasks with your cognitive ene
 
 ## 🚀 Live Demo
 
-🌐 [https://alejo543.github.io/FocusFlow](https://alejo543.github.io/FocusFlow)
+🌐 [https://focus-flow-eta-ebon.vercel.app/](https://focus-flow-eta-ebon.vercel.app/)
 
 ---
 
