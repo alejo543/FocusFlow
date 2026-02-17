@@ -55,7 +55,7 @@ The landing page structure follows a product-centric narrative:
 ---
 
 ## 📁 Project Structure
-
+```bash
 src/
 ├─ components/
 │ ├─ landing/
@@ -68,6 +68,7 @@ src/
 │ │ └─ FinalCTASection.tsx
 ├─ App.tsx
 └─ index.tsx
+```
 
 📌 Run Locally
 
