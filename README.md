@@ -1,46 +1,58 @@
-# Astro Starter Kit: Basics
+# FocusFlow
 
-```sh
-npm create astro@latest -- --template basics
-```
+> A high-impact SaaS landing page concept designed for productivity-focused professionals, built with modern frontend architecture and conversion-driven UX principles.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+FocusFlow is a structured system for aligning your tasks with your cognitive energy — not just another to-do app. This repository contains a production-ready SaaS landing page built with React, TypeScript and Tailwind CSS, showcasing a modern design system, modular architecture, and conversion-optimized UX.
 
-## 🚀 Project Structure
+---
 
-Inside of your Astro project, you'll see the following folders and files:
+## 🚀 Live Demo
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+🌐 [https://alejo543.github.io/FocusFlow](https://alejo543.github.io/FocusFlow)
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+---
 
-## 🧞 Commands
+## 🧠 Why FocusFlow
 
-All commands are run from the root of the project, from a terminal:
+Most productivity tools optimize tasks. They don’t optimize the human doing them.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+FocusFlow is designed around cognitive energy and flow, helping developers, freelancers and creatives perform at their best without burnout.
 
-## 👀 Want to learn more?
+The landing page structure follows a product-centric narrative:
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+1. **Hero — Clear promise**
+2. **Problem — Real context**
+3. **Why Tools Fail — Strategic comparison**
+4. **The System — Framework-driven value**
+5. **Social Proof — Credibility**
+6. **Results — Emotional transformation**
+7. **Final CTA — High-impact conversion**
+
+---
+
+## 🧩 Features
+
+- 🛠️ Modular React component structure
+- ⚡ Tailwind CSS utility-first styling
+- 📝 TypeScript for type safety and scalability
+- 📐 Scalable design system
+- 🌑 Dark premium theme
+- 📊 Conversion-focused UX hierarchy
+- 🚀 Fully responsive
+
+---
+
+## 🧱 Tech Stack
+
+| Technology         | Purpose                              |
+|-------------------|--------------------------------------|
+| React             | UI Library                           |
+| TypeScript        | Static typing                        |
+| Tailwind CSS      | Utility-first styling                |
+| Vercel / GitHub Pages | Deployment                       |
+| React Icons       | Iconography                          |
+
+---
+
+## 📁 Project Structure
+
